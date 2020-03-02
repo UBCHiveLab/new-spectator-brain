@@ -1340,6 +1340,7 @@ GameObject:
   - component: {fileID: 1981426574}
   - component: {fileID: 1981426573}
   - component: {fileID: 1981426575}
+  - component: {fileID: 1981426576}
   m_Layer: 0
   m_Name: Limbic
   m_TagString: Untagged
@@ -1464,6 +1465,40 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+  - keyword: Scale up
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1981426576}
+          m_MethodName: scaleUp
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - keyword: Scale down
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1981426576}
+          m_MethodName: scaleDown
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   persistentKeywords: 0
   speechConfirmationTooltipPrefab: {fileID: 1621337334}
 --- !u!114 &1981426574
@@ -1492,6 +1527,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distance: 2
+--- !u!114 &1981426576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981426570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc553f7a32dafd419117c8cb5de02a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleObject: {fileID: 1981426570}
 --- !u!1001 &1984045559
 PrefabInstance:
   m_ObjectHideFlags: 0
