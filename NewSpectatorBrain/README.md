@@ -1,4 +1,4 @@
-# //BUILD 2019 Demo
+# //SpectatorBrain Build from modifying Spectator View BUILD 2019 Demo
 
 This sample of using SpectatorView is very similar to the live code demo presented at //BUILD 2019 conference. It showcases the [Azure Spatial Anchors](https://azure.microsoft.com/en-us/services/spatial-anchors/) alignment strategy.
 
