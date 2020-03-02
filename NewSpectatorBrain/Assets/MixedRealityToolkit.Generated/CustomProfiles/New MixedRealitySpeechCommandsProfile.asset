@@ -72,3 +72,17 @@ MonoBehaviour:
       id: 0
       description: None
       axisConstraint: 0
+  - localizationKey: 
+    keyword: Scale up
+    keyCode: 280
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Scale down
+    keyCode: 281
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
