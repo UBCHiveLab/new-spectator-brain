@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCustomProfile: 1
   startBehavior: 0
-  recognitionConfidenceLevel: 1
+  recognitionConfidenceLevel: 0
   speechCommands:
   - localizationKey: 
     keyword: Menu
@@ -82,6 +82,20 @@ MonoBehaviour:
   - localizationKey: 
     keyword: Scale down
     keyCode: 281
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Isolate
+    keyCode: 8
+    action:
+      id: 0
+      description: None
+      axisConstraint: 0
+  - localizationKey: 
+    keyword: Quit isolate
+    keyCode: 0
     action:
       id: 0
       description: None

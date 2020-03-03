@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cortex
       objectReference: {fileID: 0}
+    - target: {fileID: 1259376770676010, guid: ddc6d8de7fcd8d84999c3b8f09f342f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4694358664150186, guid: ddc6d8de7fcd8d84999c3b8f09f342f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.58158004
@@ -179,6 +183,14 @@ PrefabInstance:
     - target: {fileID: 1860339467242804, guid: 5a9bef912d106774ab207cad479c5138, type: 3}
       propertyPath: m_Name
       value: Amygdala
+      objectReference: {fileID: 0}
+    - target: {fileID: 1860339467242804, guid: 5a9bef912d106774ab207cad479c5138, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1860339467242804, guid: 5a9bef912d106774ab207cad479c5138, type: 3}
+      propertyPath: m_TagString
+      value: Structure
       objectReference: {fileID: 0}
     - target: {fileID: 4264426375364296, guid: 5a9bef912d106774ab207cad479c5138, type: 3}
       propertyPath: m_LocalPosition.x
@@ -244,6 +256,10 @@ PrefabInstance:
     - target: {fileID: 1367098117651556, guid: f5ff000b997b59b458a007d5856d95b4, type: 3}
       propertyPath: m_Name
       value: Ventricles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367098117651556, guid: f5ff000b997b59b458a007d5856d95b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4449442626248238, guid: f5ff000b997b59b458a007d5856d95b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -886,6 +902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hippocampus
       objectReference: {fileID: 0}
+    - target: {fileID: 1435205094987068, guid: 4b1a2cc7de46aca41888648264b73c42, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4079914261739912, guid: 4b1a2cc7de46aca41888648264b73c42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.58158004
@@ -942,6 +962,10 @@ PrefabInstance:
     - target: {fileID: 1551314261114904, guid: aef7f1b24ccd2c04987fe933858e8838, type: 3}
       propertyPath: m_Name
       value: Mammillary Bodies
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551314261114904, guid: aef7f1b24ccd2c04987fe933858e8838, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4972652121570474, guid: aef7f1b24ccd2c04987fe933858e8838, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1017,6 +1041,10 @@ PrefabInstance:
     - target: {fileID: 1021093249162016, guid: 8eaedcb23a3844d4383a1d48e76118da, type: 3}
       propertyPath: m_Name
       value: Fornix
+      objectReference: {fileID: 0}
+    - target: {fileID: 1021093249162016, guid: 8eaedcb23a3844d4383a1d48e76118da, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4459704047996152, guid: 8eaedcb23a3844d4383a1d48e76118da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1341,9 +1369,10 @@ GameObject:
   - component: {fileID: 1981426573}
   - component: {fileID: 1981426575}
   - component: {fileID: 1981426576}
+  - component: {fileID: 1981426577}
   m_Layer: 0
   m_Name: Limbic
-  m_TagString: Untagged
+  m_TagString: Brain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1377,7 +1406,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a9822f51e7e43d499f7673e9432e193, type: 3}
   m_Name: 
@@ -1499,6 +1528,40 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+  - keyword: Isolate
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1981426577}
+          m_MethodName: Isolate
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - keyword: Quit isolate
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1981426577}
+          m_MethodName: QuitIsolate
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   persistentKeywords: 0
   speechConfirmationTooltipPrefab: {fileID: 1621337334}
 --- !u!114 &1981426574
@@ -1540,6 +1603,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scaleObject: {fileID: 1981426570}
+--- !u!114 &1981426577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981426570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d07678123a3043e4f91a2cb7f64c9581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1984045559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1550,6 +1625,10 @@ PrefabInstance:
     - target: {fileID: 1895116992891682, guid: 0ef320c72f5716b4b827caaccabe2da4, type: 3}
       propertyPath: m_Name
       value: Mammillothalamic Tract
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895116992891682, guid: 0ef320c72f5716b4b827caaccabe2da4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4801588851065144, guid: 0ef320c72f5716b4b827caaccabe2da4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1607,6 +1686,10 @@ PrefabInstance:
     - target: {fileID: 1488387289089544, guid: 263d804cfcdadf14dab50bae871cf329, type: 3}
       propertyPath: m_Name
       value: Thalamus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1488387289089544, guid: 263d804cfcdadf14dab50bae871cf329, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4965399250072526, guid: 263d804cfcdadf14dab50bae871cf329, type: 3}
       propertyPath: m_LocalPosition.x
