@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Microsoft
-  productName: SpectatorView.Build2019Demo
+  productName: HIVE.SpectatorBrain
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -633,7 +633,7 @@ PlayerSettings:
   platformArchitecture:
     iOS: 1
   scriptingBackend:
-    Metro: 2
+    Metro: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -643,13 +643,13 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: SpectatorView.Build2019Demo
+  metroPackageName: HIVE.SpectatorBrain
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Microsoft
   metroCertificateIssuer: Microsoft
-  metroCertificateNotAfter: 801c97b5f1f1d601
+  metroCertificateNotAfter: 80a15945a110d701
   metroApplicationDescription: Demo of SpectatorView show and //BUILD 2019
   wsaImages: {}
   metroTileShortName: SpectatorView.Build2019Demo

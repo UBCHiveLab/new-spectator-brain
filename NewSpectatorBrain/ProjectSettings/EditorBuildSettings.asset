@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MixedReality-SpectatorView/SpectatorView/Scenes/SpectatorView.Android.unity
     guid: 8c5e2534a4ad5f64dbb50a1bad484ef2
-  - enabled: 1
+  - enabled: 0
     path: Assets/MixedReality-SpectatorView/SpectatorView/Scenes/SpectatorView.iOS.unity
     guid: f8cc70d0d868b754ab89047eb4a6317b
   - enabled: 1
