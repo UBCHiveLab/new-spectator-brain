@@ -652,7 +652,12 @@ PrefabInstance:
     - target: {fileID: 4941633254297953242, guid: aa311d939e452a045b897dcc7c9c36fb,
         type: 3}
       propertyPath: Role
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941633254297953242, guid: aa311d939e452a045b897dcc7c9c36fb,
+        type: 3}
+      propertyPath: automaticallyAttemptNetworkReconnects
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa311d939e452a045b897dcc7c9c36fb, type: 3}
@@ -1419,7 +1424,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45b3eff181cc4244a8a14234096e62fd, type: 3}
   m_Name: 
@@ -1571,7 +1576,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26940dbac951b8444abb27fd23b9d0c1, type: 3}
   m_Name: 
@@ -1584,7 +1589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f38fa920032c31748ba966b440d3c6a6, type: 3}
   m_Name: 
@@ -1597,7 +1602,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edc553f7a32dafd419117c8cb5de02a2, type: 3}
   m_Name: 
@@ -1610,11 +1615,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981426570}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d07678123a3043e4f91a2cb7f64c9581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 0}
+  cortex: {fileID: 0}
+  ventricles: {fileID: 0}
+  structuresList: []
+  structureListCopy: []
+  isolatedStructures: []
 --- !u!1001 &1984045559
 PrefabInstance:
   m_ObjectHideFlags: 0
