@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MixedReality-SpectatorView/SpectatorView/Scenes/SpectatorView.Android.unity
     guid: 8c5e2534a4ad5f64dbb50a1bad484ef2
   - enabled: 0
