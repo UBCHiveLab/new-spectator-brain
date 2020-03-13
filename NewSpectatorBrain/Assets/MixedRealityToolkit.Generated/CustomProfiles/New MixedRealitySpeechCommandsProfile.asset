@@ -60,7 +60,7 @@ MonoBehaviour:
       axisConstraint: 0
   - localizationKey: 
     keyword: position
-    keyCode: 32
+    keyCode: 0
     action:
       id: 0
       description: None
@@ -87,7 +87,7 @@ MonoBehaviour:
       description: None
       axisConstraint: 0
   - localizationKey: 
-    keyword: Isolate
+    keyword: Isolate mode
     keyCode: 8
     action:
       id: 0
@@ -116,20 +116,6 @@ MonoBehaviour:
       axisConstraint: 0
   - localizationKey: 
     keyword: accio
-    keyCode: 0
-    action:
-      id: 0
-      description: None
-      axisConstraint: 0
-  - localizationKey: 
-    keyword: Reducio
-    keyCode: 0
-    action:
-      id: 0
-      description: None
-      axisConstraint: 0
-  - localizationKey: 
-    keyword: Expulso
     keyCode: 0
     action:
       id: 0
