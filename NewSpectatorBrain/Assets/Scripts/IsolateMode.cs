@@ -42,7 +42,9 @@ public class IsolateMode : MonoBehaviour
         foreach (string item in Names.GetStructureNames())
         {
             structure_Keywords.Add("Add " + item, () => { HandleAddBrainPart(item); });
+            structure_Keywords.Add("Accio " + item, () => { HandleAddBrainPart(item); });
             structure_Keywords.Add("Remove " + item, () => { HandleRemoveBrainPart(item); });
+            structure_Keywords.Add("Obliviate " + item, () => { HandleRemoveBrainPart(item); });
         }
         structure_recognizer = new KeywordRecognizer(structure_Keywords.Keys.ToArray());
         
