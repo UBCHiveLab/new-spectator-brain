@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3011,6 +3011,93 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1436209582}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1590982585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 735441541}
+    m_Modifications:
+    - target: {fileID: 1272829154720218, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_Name
+      value: Cerebellum
+      objectReference: {fileID: 0}
+    - target: {fileID: 1272829154720218, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7124
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6928
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.46699992
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.014065892
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.6120001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413618241056562, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281588623056190, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 33113167964408478, guid: 4a2262eb832d142fcb60325254cef6b4,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: a765f8b3e8f334be2bc1a38253cd9c00, type: 3}
+    - target: {fileID: 23960238759734112, guid: 4a2262eb832d142fcb60325254cef6b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c57eb9994ef4844ffba2f6cfdb77aad1, type: 2}
+    - target: {fileID: 64295476487486896, guid: 4a2262eb832d142fcb60325254cef6b4,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64295476487486896, guid: 4a2262eb832d142fcb60325254cef6b4,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: a765f8b3e8f334be2bc1a38253cd9c00, type: 3}
+    m_RemovedComponents:
+    - {fileID: 114194520165028014, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+    - {fileID: 82333322081158854, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4a2262eb832d142fcb60325254cef6b4, type: 3}
 --- !u!1001 &1621337333
 PrefabInstance:
   m_ObjectHideFlags: 0
