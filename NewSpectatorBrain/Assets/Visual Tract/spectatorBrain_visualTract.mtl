@@ -1,0 +1,135 @@
+newmtl Iris.001
+illum 7
+Kd 0.8 0.8 0.8
+adobe_interior_color 1 1 1
+Ni 1
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Sclera.002
+illum 7
+Kd 0.8 0.8 0.8
+adobe_interior_color 1 1 1
+Ni 1
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl LLQ
+illum 7
+Kd 1 0.330049 0.952421
+adobe_interior_color 1 1 1
+Ni 1.45
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl LUQ
+illum 7
+Kd 0.8 0 0.005871
+adobe_interior_color 1 1 1
+Ni 1.45
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl RLQ
+illum 7
+Kd 0 0.347098 0.8
+adobe_interior_color 1 1 1
+Ni 1.45
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl RUQ
+illum 7
+Kd 0 0.001678 0.8
+adobe_interior_color 1 1 1
+Ni 1.45
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Material
+illum 7
+Kd 0.540187 0.8 0.181767
+adobe_interior_color 1 1 1
+Ni 1.45
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Material.004
+illum 7
+Kd 0.115794 0.115794 0.115794
+adobe_interior_color 1 1 1
+Ni 1
+adobe_density 0
+Tr 0.8
+d 0.2
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
